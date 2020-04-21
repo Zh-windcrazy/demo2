@@ -38,6 +38,7 @@ public class ChannelController {
 		public List<Channel> getAllChannels() {
 	    	logger.info("正在读取所有频道信息...");
 	    	logger.info("正在获取所有频道信息...");
+	    	logger.info("正在获取所有频道信息..");
 	    	List<Channel> results = service.getAllChannels();
 	    	
 			return results;
